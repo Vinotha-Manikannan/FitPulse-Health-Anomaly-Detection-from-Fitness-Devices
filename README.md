@@ -4,10 +4,10 @@ Milestone 1: Data Collection and Preprocessing
 The objective of this milestone is to collect fitness tracker data from wearable devices, preprocess it by handling missing values and normalizing timestamps to UTC, align all metrics to a consistent 1-minute interval, and generate a clean, consolidated dataset ready for analysis and anomaly detection.
 
 ## Dataset Source
-The dataset used in this project is the Fitbit Fitness Tracker Dataset from Kaggle.
+The dataset used in this project is the Crowd-sourced Fitbit datasets.
 
 Dataset Link:
-https://www.kaggle.com/datasets/jahanzaibqamar/fitbit-fitness-tracker-data
+https://zenodo.org/records/53894
 
 ## Files Used
 - heartrate_seconds_merged.csv (Heart rate data)
@@ -42,4 +42,5 @@ https://huggingface.co/spaces/Chinmoy02/FitPulse
 - Streamlit
 - GitHub
 - Hugging Face Spaces
+
 
