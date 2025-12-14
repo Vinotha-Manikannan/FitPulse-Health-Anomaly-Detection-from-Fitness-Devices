@@ -1,7 +1,4 @@
-
-# FitPulse Health Anomaly Detection from Fitness Devices
-
-## Milestone 1: Data Collection and Preprocessing
+Milestone 1: Data Collection and Preprocessing
 
 ## Objective
 The objective of this milestone is to collect fitness tracker data from wearable devices, preprocess it by handling missing values and normalizing timestamps to UTC, align all metrics to a consistent 1-minute interval, and generate a clean, consolidated dataset ready for analysis and anomaly detection.
@@ -43,6 +40,6 @@ https://huggingface.co/spaces/Chinmoy02/FitPulse
 - Pandas
 - NumPy
 - Streamlit
-- Google Colab
 - GitHub
 - Hugging Face Spaces
+
