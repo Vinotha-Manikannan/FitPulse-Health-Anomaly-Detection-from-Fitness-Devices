@@ -33,7 +33,7 @@ Milestone1/data/cleaned_dataset.csv
 A Streamlit application was created to visualize the cleaned dataset.
 
 ## Live Demo
-https://huggingface.co/spaces/Chinmoy02/FitPulse
+https://huggingface.co/spaces/VinothaManikannan/Fitpulse
 
 ## Tools Used
 - Python
@@ -42,5 +42,6 @@ https://huggingface.co/spaces/Chinmoy02/FitPulse
 - Streamlit
 - GitHub
 - Hugging Face Spaces
+
 
 
