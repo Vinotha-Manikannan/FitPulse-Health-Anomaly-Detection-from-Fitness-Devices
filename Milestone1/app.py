@@ -15,15 +15,16 @@ DATA_PATH = "data/cleaned_dataset.csv"
 
 # Check file exists
 if not os.path.exists(DATA_PATH):
-    st.error("❌ cleaned_dataset.csv not found in data folder")
+    st.error("cleaned_dataset.csv not found in data folder")
 else:
     df = pd.read_csv(DATA_PATH)
 
-    st.markdown("## 📊 Dataset Preview")
+    st.markdown("## Dataset Preview")
     st.dataframe(df.head(20))
 
-    st.markdown("## ℹ️ Dataset Summary")
+    st.markdown("##  Dataset Summary")
     st.write(df.describe())
 
-    st.markdown("## 🧱 Dataset Columns")
+    st.markdown("##  Dataset Columns")
     st.write(df.columns.tolist())
+
