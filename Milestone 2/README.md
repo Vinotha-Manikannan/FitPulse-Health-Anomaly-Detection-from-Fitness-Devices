@@ -58,7 +58,7 @@ and clustering visualizations are presented through an interactive Streamlit
 application deployed on Hugging Face Spaces.
 
 Live Application Link:
-https://huggingface.co/spaces/Chinmoy02/FitPulse2
+https://huggingface.co/spaces/VinothaManikannan/Milestrone2/tree/main
 
 The application provides:
 - Cleaned dataset preview
