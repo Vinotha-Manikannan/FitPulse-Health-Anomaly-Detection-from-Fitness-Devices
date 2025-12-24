@@ -13,7 +13,7 @@ df["timestamp"] = pd.to_datetime(df["timestamp"]).dt.tz_localize(None)
 user_ids = df["Id"].unique()[:5]
 df = df[df["Id"].isin(user_ids)]
 
-# ---------- PROPHET (per user, per metric) ----------
+# PROPHET (per user, per metric) 
 for uid in user_ids:
     print("\nUser:", uid)
     user_df = df[df["Id"] == uid]
@@ -41,7 +41,7 @@ for uid in user_ids:
         print("Anomalies:")
         print(merged[merged["anomaly"]])
 
-# ---------- CLUSTERING (5 users, no error) ----------
+# CLUSTERING 
 features = pd.read_csv("data/selected_features.csv", index_col=0)
 
 scaler = StandardScaler()
